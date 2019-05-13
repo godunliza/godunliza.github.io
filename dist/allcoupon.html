@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Document</title>
+
+
+
+    <style>
+    
+   
+    
+    </style>
+</head>
+<body>
+        <header class="header ">
+                <div class="header_ob ">
+                 <nav class="header_menu ">
+         
+                     <ul class="header_menu_list"> 
+                         <li><a href="./allbonus.html" class="header_menu_link" style=" color: rgba(0, 0, 0, 0.3);"> Акции</a></li>
+                         <li><a href="./allcoupon.html" class="header_menu_link"> Купоны</a></li>
+                         <li><a href="./allpartners.html" class="header_menu_link" style=" color: rgba(0, 0, 0, 0.3);"> Партнеры</a></li>
+                         <li><a href="./googlemap.html" style=" color: rgba(0, 0, 0, 0.3);"> Карта</a></li>
+                         <li><a href="./html/chavo.html" style=" color: rgba(0, 0, 0, 0.3);"> Чаво</a></li>
+                     </ul>
+                 <!--
+                 <img src="icons/menu.svg" alt="menu" class="header_menu_gumb">-->
+             </nav>
+             <a class="header_logo " href='http://bonusplus/'>
+                <img src="icons/logo.svg" alt="menu">
+                </a>
+         
+         
+                 <nav class="header_select ">
+                     <select name="city" >
+                         <option value="Киев">Киев</option>
+                         <option value="Запорожье">Запорожье</option>
+                         <option value="Днепр" selected>Днепр</option>
+                         <option value="Львов">Львов</option>
+                         <option value="Одесса">Одесса</option>
+                         <option value="Симферополь">Симферополь</option>
+                         <option value="Харьков">Харьков</option>
+                     </select>
+                     <select name="language" >
+                         <option value="Русский">Рус</option>
+                         <option value="Українська">Укр</option>
+                         <option value="English">Eng</option>
+                     </select>
+                     <a href="#">Мои бонусы</a>
+         
+                        </nav>
+                 <div class="header_find ">
+                     <img src="icons/find1.svg" alt="menu">
+                 </div>
+             </div>
+         
+             <!--Find-->
+             <form action="get" class="header_find-form header_hide">
+                 <div class="header_find-form_inp">
+                 <input type="button" class="header_find-form_inp_close">
+                 <input type="text" placeholder="Поиск"class="header_find-form_inp_write">
+                 <hr class="hr">
+             </div>
+                 
+         <div class="header_find-form_obertka">
+                 <div class="header_find-form_select ">
+                 <select name="bon" class="header_find-form_select_opt">
+                     <option value="Все" selected="selected" >  Всё</option>
+                     <option value="Акции" >Акции</option>
+                     <option value="Купоны" >Купоны</option>
+                     <option value="Партнеры" >Партнеры</option>
+                 </select>
+                 <input type="button" class="header_find-form_inp_btn">
+                 </div>
+                 <div class="header_find-form_toggle">
+                     <label for="radio1" class="header_find-form_inp_btn_label"></label>
+                     <input type="radio" name="radio1" class="header_find-form_inp_btn_radio">
+                     <label for="radio1" class="header_find-form_inp_btn_label"></label>
+                     <input type="radio" name="radio2" class="header_find-form_inp_btn_radio">
+                 </div>
+             </div>
+             </form>
+         
+             </header>
+    <main>
+<div class="template_load" id="template_load" >
+
+
+
+
+</div>
+</main>
+
+
+
+
+
+    <!--CardTemplate for bonus,coupon-->
+    <template id="item">
+        <div class="card_item">
+            <div class="card_item_pic">
+                <section class="card_item_pic_bonus">
+                    <img src="" alt="strawberry" class="card_item_pic_bonus_icon">
+                    <h6></h6>
+                </section>
+                <div class="card_item_pic_last_bonus">
+                <s >
+                        
+                </s>
+                </div>  
+                <picture class="card_item_pic_src">
+                    <img src="" alt="pic" class="card_pic">
+
+                </picture>
+                <div class="card_item_pic_time">
+                    <p class="card_item_pic_time_text">
+                       
+                            
+                    </p>
+                       
+                </div>
+            </div>
+            
+            <div class="card_item_desc">
+                
+                <p class="card_item_desc_categ">
+                </p>
+            
+                <h6 class="card_item_desc_zag">
+                    
+                </h6>
+                <address class="card_item_desc_addr">
+                    
+                </address>
+                <hr class="hr">
+                <p class="card_item_desc_time">
+                    Действует:
+                </p>
+            
+                <div class="card_item_desc_bottom">
+                    <p class="card_item_desc_bottom_buyers">Участников </p>
+                    <button class="card_item_desc_bottom_btn">Учавствовать</button>
+                </div>
+            </div>
+        </div>
+   <!-- </div>
+    </section>-->
+    </template>
+
+
+
+
+
+<script src="bundle.js"></script>
+</body>
+</html>
