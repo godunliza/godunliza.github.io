@@ -1,0 +1,94 @@
+[
+
+
+    {
+        "bonusnow":"20%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РЕСТОРАНЫ И КАФЕ",
+        "name":" Кофейня и соляная комната «Соляная Пещера» ",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"20%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"Квест-комната «In Game»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"20%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"ЗДОРОВЬЕ",
+        "name":"Стоматология «Клиника Долголетия»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"20%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"Квест-комната «In Game»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"7%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"ЗДОРОВЬЕ",
+        "name":"Стоматология «Клиника Долголетия»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"15%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РЕСТОРАНЫ И КАФЕ",
+        "name":" Кофейня и соляная комната «Соляная Пещера» ",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"15%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"Квест-комната «In Game»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"16%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"ЗДОРОВЬЕ",
+        "name":"Стоматология «Клиника Долголетия»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    },
+    {
+        "bonusnow":"7%",
+        "urlicon":"icons/strawberry.webp",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"Квест-комната «In Game»",
+        "phone":"+380 (63) 123 45 67",
+        "addr":" Пр. Кирова 117 "
+        
+
+    }
+]
