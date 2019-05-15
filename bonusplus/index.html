@@ -5,6 +5,8 @@
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <meta content="ie=edge" http-equiv="X-UA-Compatible">
 <link href="https://maps.googleapis.com" rel="preconnect">
+<link href="./jquery.min.js" rel="preload" as="script">
+<link href="./slick-1.8.1/slick/slick.min.js" rel="preload" as="script">
 <link href="slick-1.8.1/slick/slick.css" rel="preload" as="style">
 <link href="slick-1.8.1/slick/slick-theme.css" rel="preload" as="style">
 <link href="slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
@@ -53,8 +55,8 @@
 <div class="header_find-form_inp">
 <img alt="close" src="./icons/X.svg" class="header_find-form_inp_close">
 <input placeholder="Поиск" class="header_find-form_inp_write">
-<hr class="hr">
 </div>
+<hr class="hr">
 <div class="header_find-form_obertka">
 <div class="header_find-form_select">
 <select name="bon" class="header_find-form_select_opt">
@@ -78,8 +80,8 @@
 <a href="./allbonus.html" class="watchall">См. все</a>
 </div>
 <h5 class="desc">Получите больше бонусов пока действует акция
-<hr class="hr">
 </h5>
+<hr class="hr">
 <div class="slayder" id="slayderbon">
 </div>
 </section>
@@ -89,8 +91,8 @@
 <a href="./allcoupon.html" class="watchall">См.все</a>
 </div>
 <h5 class="desc">Получите скидку на все товары и услуги
-<hr class="hr">
 </h5>
+<hr class="hr">
 <div class="slayder" id="slaydercoup">
 </div>
 </section>
@@ -99,7 +101,8 @@
 <h4 class="zag">Партнеры</h4>
 <a href="./allpartners.html" class="watchall">См.все</a>
 </div>
-<h5 class="desc">Получайте бонусы до 20% в сети партнеров программы</h5>
+<h5 class="desc">Получайте бонусы до 20% в сети партнеров программы
+</h5>
 <hr class="hr">
 <div class="slayder" id="slayderpart">
 </div>
@@ -123,8 +126,8 @@
 </section>
 <section class="question">
 <div class="card_zag">
-<h4 class="zag">ЧаВо</h4>
-<a href="./html/" class="watchall">Все</a>
+<h4 class="zag">ЧаВо </h4>
+<a href="./html/chavo.html" class="watchall">Все</a>
 </div>
 <hr class="hr">
 <div class="question_obertka">
@@ -146,7 +149,6 @@
 </section>
 </div>
 </section>
-<hr class="hr">
 </main>
 <footer>
 <ul class="footer_links">
@@ -159,6 +161,7 @@
 </a>
 <hr class="hr">
 </li>
+<li><hr class="hr"></li>
 <li class="footer_links_item">
 <div class="footer_links_item_left">
 <div class="footer_links_item_left_pic bg-black"><img alt="app-store" src="icons/app-store.svg"></div>
@@ -168,6 +171,7 @@
 </a>
 <hr class="hr">
 </li>
+<li><hr class="hr"></li>
 <li class="footer_links_item">
 <div class="footer_links_item_left">
 <div class="footer_links_item_left_pic bg-lilo"><img alt="viber" src="icons/viber.svg"></div>
@@ -203,7 +207,6 @@
 <img alt="pic" src="icons/arr.svg">
 </a>
 </li>
-<li><hr class="hr"></li>
 </ul>
 <div class="footer_cards">
 <section class="footer_cards_item">
@@ -240,7 +243,6 @@
 </form>
 </section>
 </div>
-<hr class="hr">
 <div class="footer_end">
 © 2018 ПриватБанк
 </div>
@@ -310,22 +312,21 @@
 </template>
 <script>
 var map;
-
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 48.454947,lng:  34.971859 },
-          zoom: 16
-        });
-        var marker = new google.maps.Marker({
-            map: map,
-            position: { lat: 48.454015, lng:  34.971451 },
-            
-        });
-
-      }
+              function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: 48.454947,lng:  34.971859 },
+                  zoom: 16
+                });
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: { lat: 48.454015, lng:  34.971451 },
+                    
+                });
+        
+              }
 </script>
-<script src="jquery.min.js"></script>
-<script src="slick-1.8.1/slick/slick.min.js"></script>
-<script async src="./bundle.js"></script>
+<script src="jquery.min.js" defer></script>
+<script src="slick-1.8.1/slick/slick.min.js" defer></script>
+<script src="./bundle.js" async></script>
 </body>
 </html>
